@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get("/" ,(req, res) => {
-    res.send("cc");
+    res.send("github -> gcp -- app engine CI/CD test");
 });
 
 app.listen(port, () => {
